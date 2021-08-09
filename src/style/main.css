@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-width: 700px;
+  min-height: 600px;
+  margin-top: 30px;
+  background-color: whitesmoke;
+  box-shadow: rgba(21, 21, 21, 0.3) 0 2px 6px;
+  position: relative;
+}
+
+@media (max-width: 700px) {
+  .App {
+    min-width: 180px;
+  }
+}
+
+/* Header */
+
+.Header {
+  padding: 20px;
+  background-color: white;
+}
+
+.Header h1 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+/* Form */
+
+.FormContainer {
+  padding: 10px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.FormContainer input {
+  padding: 3px;
+  width: 90%;
+  font-size: 15px;
+  border-radius: 5px;
+  border-style: none;
+  padding: 8px;
+}
+
+.FormContainer button {
+  width: 80px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.FormContainer button:hover {
+  background-color: green;
+  transition: 0.5s;
+}
+
+/* List */
+
+.ListContainer {
+  margin: 0px 0px 0px 25px;
+  width: 89%;
+}
+
+.ListContainer li {
+  margin-bottom: 10px;
+  list-style: none;
+  background-color: white;
+  border-style: none;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.ListContainer button {
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.checkBtn {
+  background-color: green;
+}
+
+.TrashBtn {
+  background-color: #dc3545;
+}
