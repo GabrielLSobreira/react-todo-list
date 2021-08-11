@@ -11,7 +11,7 @@ Nessa Lista de Tarefas é possível adicionar, excluir e marcar como concluída 
 
 ## Layout
 
-![Web](https://github.com/GabrielLSobreira/react-todo-list/blob/main/img/Todo%20List.png)
+![Web](https://github.com/GabrielLSobreira/react-todo-list/blob/main/src/img/Todo%20List.png)
 
 # Tecnologias utilizadas
 ## Front end
